@@ -21,7 +21,7 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig({
-  base: "/event-ticket_new/", // اسم الريبو بالظبط
+  base: "./", // اسم الريبو بالظبط
   build: {
     outDir: "docs", // فولدر GitHub Pages
   },
